@@ -1,0 +1,16 @@
+# Carpetas grandes de datos — no subir a Git
+Practicas/
+Videos/
+__pycache__/
+*.pyc
+
+# Carpetas de imágenes del proyecto (muy pesadas)
+Detección y Clasificación de Humedad Activa y Restos de Humedad/Imagenes/
+
+# Modelos entrenados (pesados)
+*.pt
+runs/
+
+# Archivos temporales de Python
+*.egg-info/
+.env
