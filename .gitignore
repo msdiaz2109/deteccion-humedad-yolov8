@@ -4,9 +4,6 @@ Videos/
 __pycache__/
 *.pyc
 
-# Carpetas de imágenes del proyecto (muy pesadas)
-Detección y Clasificación de Humedad Activa y Restos de Humedad/Imagenes/
-
 # Modelos entrenados (pesados)
 *.pt
 runs/
