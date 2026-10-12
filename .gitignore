@@ -1,13 +1,31 @@
-# Carpetas grandes de datos — no subir a Git
-Practicas/
+# Archivos y carpetas de datos masivos y temporales
 Videos/
+Practicas/
+runs/
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Modelos entrenados (pesados)
+# Checkpoints base y temporales de Ultralytics
+yolo*.pt
+*.temp_dataset/
+
+# Ignorar modelos .pt en general, excepto el modelo final entrenado
 *.pt
-runs/
+!weights/best.pt
 
-# Archivos temporales de Python
-*.egg-info/
+# Archivos de entorno y configuraciones locales
 .env
+.venv/
+env/
+venv/
+*.egg-info/
+.vscode/
+.idea/
+
+# Archivos temporales del sistema operativo y Office
+.DS_Store
+Thumbs.db
+~$*.docx
+~$*.pptx

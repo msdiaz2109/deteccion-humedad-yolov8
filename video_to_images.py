@@ -93,9 +93,12 @@ def extract_frames(video_path, image_format="jpg", target_fps=6):
 
     # Obtener el nombre base del video para crear la carpeta
     video_basename = os.path.splitext(os.path.basename(video_path))[0]
+    base_dir = os.path.dirname(os.path.abspath(__file__))
     # Crear la carpeta de salida directamente en Imagenes del proyecto (sin el sufijo _imagenes)
     output_dir = os.path.join(
-        r"C:\Users\Mariana\Desktop\Delfín\Detección y Clasificación de Humedad Activa y Restos de Humedad\Imagenes",
+        base_dir,
+        "Detección y Clasificación de Humedad Activa y Restos de Humedad",
+        "Imagenes",
         video_basename
     )
     
