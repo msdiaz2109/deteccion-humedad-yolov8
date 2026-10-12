@@ -122,8 +122,8 @@ Muestras de prediccion automatica contrastadas con las etiquetas de campo:
 
 ### Instalacion de dependencias
 ```bash
-git clone https://github.com/msdiaz2109/Detecci-n-Y-Clasificaci-n-de-Humedad.git
-cd Detecci-n-Y-Clasificaci-n-de-Humedad
+git clone https://github.com/msdiaz2109/deteccion-humedad-yolov8.git
+cd deteccion-humedad-yolov8
 pip install -r requirements.txt
 ```
 
