@@ -3,7 +3,7 @@
 SCRIPT 1: ENTRENAMIENTO DEL MODELO DE HUMEDAD ACTIVA Y HUMEDAD PASIVA
 ================================================================================
 Este script:
-1. Incluye todas las carpetas con anotaciones de ambas clases (incluyendo vid_012, vid_013, vid_017 y restos_de_humedad)
+1. Incluye todas las carpetas con anotaciones de ambas clases (incluyendo vid_012, vid_013 y vid_017)
    para resolver el desbalance de datos y mejorar la deteccion de la Humedad Pasiva.
 2. Mapea las 2 clases:
    - Clase 0: Humedad (Humedad Activa)
@@ -32,7 +32,7 @@ RUNS_DIR = os.path.join(BASE_DIR, "Detección y Clasificación de Humedad Activa
 CARPETAS_ENTRENAMIENTO = [
     "vid_001", "vid_002", "vid_004", "vid_005", "vid_006", 
     "vid_011", "vid_012", "vid_013", "vid_014", "vid_015", 
-    "vid_016", "vid_017", "restos_de_humedad"
+    "vid_016", "vid_017"
 ]
 
 # Directorio temporal de entrenamiento

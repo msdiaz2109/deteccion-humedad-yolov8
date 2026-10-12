@@ -4,7 +4,7 @@ Sistema de vision por computadora basado en aprendizaje profundo para la inspecc
 
 El proyecto diferencia entre dos categorias diagnosticas con implicaciones de mantenimiento diferenciadas:
 - Humedad Activa (Clase 0): Filtracion o acumulacion de agua en estado activo que requiere atencion correctiva prioritaria.
-- Restos de Humedad / Humedad Inactiva (Clase 1): Manchas secas, marcas residuales o eflorescencias salinas que indican afectaciones previas o zonas de riesgo recurrente.
+- Restos de Humedad / Humedad Inactiva (Clase 1): Manchas secas o marcas residuales que indican afectaciones previas o zonas de riesgo recurrente.
 
 Trabajo de investigacion desarrollado en el marco del XXIX Verano de la Investigacion Cientifica y Tecnologica del Pacifico (Programa Delfin), en colaboracion entre el Instituto Tecnologico de Morelia (ITM) y la Universidad Michoacana de San Nicolas de Hidalgo (UMSNH - Facultades de Ingenieria Civil e Ingenieria Electrica). Presentado en el Encuentro de Jovenes Investigadores del Estado de Michoacan (EJIEM 2026).
 
